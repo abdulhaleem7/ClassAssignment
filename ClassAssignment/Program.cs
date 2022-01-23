@@ -32,14 +32,18 @@ namespace ClassAssignment
                 $" studied {student2.Course} in university {student2.University} his best subject is {student2.Subject} is" +
                 $" gmail acc. is {student2.Email} and his contact info is {student2.PhoneNumber} ");*/
 
-            Studenttest.FullName = "haleem";
-            Studenttest.Course = "computerscience";
-            Studenttest.Email = "salaudenhaleem7@gmail.com";
-            Studenttest.Subject = "physics";
-            Studenttest.University = "funaab";
-            Studenttest.PhoneNumber = "09023192701";
+            /*            Studenttest.FullName = "haleem";
+                        Studenttest.Course = "computerscience";
+                        Studenttest.Email = "salaudenhaleem7@gmail.com";
+                        Studenttest.Subject = "physics";
+                        Studenttest.University = "funaab";
+                        Studenttest.PhoneNumber = "09023192701";*/
 
-
+            Libarary b = new Libarary("g", "h");
+            b.AddBook();
+            b.AddBook();
+            b.RemoveBook();
+            Libarary.ListBooks();
 
         }
     }

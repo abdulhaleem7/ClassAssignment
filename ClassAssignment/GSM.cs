@@ -70,6 +70,7 @@ namespace ClassAssignment
         {
             Size = size;
             Colour = colour;
+            
         }
          
 
